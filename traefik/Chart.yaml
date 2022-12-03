@@ -1,0 +1,9 @@
+apiVersion: v2
+name: traefik
+version: v20.6.0
+description: Traefik is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease.
+
+dependencies:
+  - name: traefik
+    version: v20.6.0
+    repository: https://traefik.github.io/charts
